@@ -135,6 +135,8 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(new double[] { }, 1, new double[] { })]
         [InlineData(null, 0, new double[] { })]
         [InlineData(null, 1, new double[] { })]
+
+
         public void GetEveryNthElement_List(double[] numbers, int n, double[] expected)
         {
             // Arrange
